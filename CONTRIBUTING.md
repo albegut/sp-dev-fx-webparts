@@ -1,4 +1,4 @@
-# Contribution Guidance
+# Contribution Guidance 
 
 If you'd like to contribute to this repository, please read the following guidelines. Contributors are more than welcome to share their learnings with others in this centralized location.
 
@@ -29,7 +29,6 @@ Whenever you are submitting any changes to the SharePoint repositories, please f
 * If you are submitting multiple samples, please create a specific PR for each of them
 * If you are submitting typo or documentation fix, you can combine modifications to single PR where suitable
 
-
 ## Sample Naming and Structure Guidelines
 
 When you submit a new sample, please follow these guidelines:
@@ -39,7 +38,7 @@ When you submit a new sample, please follow these guidelines:
     - Your solution's source code
     - An `assets` folder, containing screenshots
     - A `README.md` file
-    - A '.nvmrc` file
+    - An `.nvmrc` file
 * You must only submit samples for which you have the rights to share. Make sure that you asked for permission from your employer and/or clients before committing the code to an open-source repository, because once you submit a pull request, the information is public and _cannot be removed_.
 * If your sample is a SharePoint Framework Extensions, please consider adding it to the [sp-dev-fx-extensions](https://github.com/pnp/sp-dev-fx-extensions) repository instead
 * If your sample is an Adaptive Card Extension (ACE), consider adding it to the [sp-dev-fx-aces](https://github.com/pnp/sp-dev-fx-aces) repository instead.
@@ -53,7 +52,7 @@ When you submit a new sample, please follow these guidelines:
 * If your solution is demonstrating multiple technologies, please use functional terms as the name for the solution folder
 * Do not use period/dot in the folder name of the provided sample
 
-### Source Code
+### Source Code Only
 
 * For security reasons, we do not accept pull requests containing `.sppkg` files. We only accept source code files for applications. 
 * Make sure to place the root of your solution's source code in sample folder
@@ -99,7 +98,7 @@ Each version of SPFx supports only a limited number of Node.js versions. To help
 
 * Create a new file with the name `.nvmrc` (including the dot at the beginning of the file name).
 * Open the .`nvmrc` file in a text editor and specify the desired Node.js version. The version should be in the format `vMajor.Minor.Patch`. For example, if you want to use Node.js version 14.17.0, simply write `v14.17.0` in the file. Make sure there are no leading or trailing spaces in the file.
-* Save the .nvmrc file in the root directory of your project.
+* Save the `.nvmrc` file in the root directory of your project.
 
 > To generate this file automatically, you can use the following command:
 >

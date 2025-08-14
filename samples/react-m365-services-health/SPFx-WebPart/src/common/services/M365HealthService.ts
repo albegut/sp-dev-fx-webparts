@@ -4,10 +4,10 @@ import { ServiceHealth } from "@microsoft/microsoft-graph-types";
 import { WebPartContext } from "@microsoft/sp-webpart-base";
 import { AadHttpClient, IHttpClientOptions, HttpClientResponse } from "@microsoft/sp-http";
 export class M365HealthService {
-  private context: WebPartContext;
-  private apiBaseUrl: string;
+  private readonly context: WebPartContext;
+  private readonly apiBaseUrl: string;
   public aadHttpClient: AadHttpClient | undefined;
-  private audience: string;
+  private readonly audience: string;
   //private token: string;
   constructor(context: WebPartContext, apiBaseUrl: string, audience: string) {
     this.context = context;
@@ -46,6 +46,7 @@ export class M365HealthService {
       try {
         return await response.clone().json();
       } catch (error) {
+        console.log(error);
         return await response.text();
       }
     } else {

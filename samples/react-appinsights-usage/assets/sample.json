@@ -3,7 +3,7 @@
     "name": "pnp-sp-dev-spfx-web-parts-react-appinsights-usage",
     "source": "pnp",
     "title": "React AppInsights Usage WebParts",
-    "shortDescription": "This web parts shows different use cases for capturing data in your application and store it into the Azure Application Insights service.",  
+    "shortDescription": "This web parts shows different use cases for capturing data in your application and store it into the Azure Application Insights service.",
     "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-appinsights-usage",
     "longDescription": [
       "This web parts shows different use cases for capturing data in your application. Azure Application Insights is more than only Logging and Tracing. It can be used to analyse data and display them in a graphical representation."
@@ -14,6 +14,10 @@
       "SharePoint"
     ],
     "metadata": [
+      {
+        "key": "SAMPLE-TYPE",
+        "value": "SPFx-WebPart"
+      },
       {
         "key": "CLIENT-SIDE-DEV",
         "value": "React"
@@ -74,7 +78,6 @@
         "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-appinsights-usage/assets/SampleRouterUserFlow.png?raw=true",
         "alt": "AppInsights User Flow"
       }
-      
     ],
     "authors": [
       {
@@ -104,9 +107,9 @@
       {
         "name": "Application Insights",
         "description": "Application Insights provides many experiences to enhance the performance, reliability, and quality of your applications.",
-        "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview"
+        "url": "https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview"
       }
-      
-    ]
+    ],
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-appinsights-usage"
   }
 ]
